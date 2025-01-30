@@ -1,0 +1,121 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\author{Daniel Walther Berns}
+\title{Draft}
+\begin{document}
+	\maketitle
+	\section{Outline}
+	    \subsection{Weather forecasting with machine learning}
+
+In \cite{SSIS2011}, weather forecasting for predicting solar power production, distributed generation renewable energy.
+
+In \cite{OBOD2017}, framework
+\begin{enumerate}
+	\item Data adquisition
+	\item Data processing (ETL)
+	\item Semantic rule reasoning layer processes RDF data according the rules and produces inferred data.
+	\item The learning layer preprocesses the incoming data, extracts relevant features and applies machine learning methods.
+	\item The actions layer is responsible for evaluating the results produced in learning layer
+\end{enumerate}
+
+In \cite{weyn2021sub}, subseasonal prediction; timeframes; 
+
+\subsection{Goal}
+
+We need 
+\begin{enumerate}
+	\item Prediction of wind speed and direction, useful for scheduling production of wind generators.
+	\item Cloud cover prediction, useful for sizing solar generators.
+	\item Prediction of frost, rain, and humidity, useful for agriculture.
+\end{enumerate}
+
+Our goal:
+ Establish a system of sustained operation over time, able to acquire new data, updating periodically its weights and thus improving its performance.
+
+
+\subsection{Objectives}
+
+\begin{enumerate}
+	\item Continuous data acquisition.
+	\item Development, training and comparison of different models.
+	\item Inference in different environments (Cloud, notebook, Raspberry Pi).
+	\item Periodic update of models with additional data.
+\end{enumerate}
+
+\subsection{Continuous data acquisition}
+
+\begin{enumerate}
+	\item Data table (Wind, humidity, pressure, temperature, rain, cloudiness, solar radiation) + Images.
+	\item Multiple data sources
+	\begin{enumerate}
+		\item Own weather station
+		\item API: 
+		\begin{enumerate} 
+			\item \url{https://openweathermap.org} (free), 
+			\item \url{https://insights.spire.com/weather-api} (paid)
+		\end{enumerate}
+	    \item Historical data available for starters \url{https://www.smn.gob.ar/descarga-de-datos}
+	\end{enumerate}
+    \item Process:
+    \begin{enumerate}
+    	\item Download raw data
+    	\item Pre-processing (cleaning, sorting and formatting)
+    	\item Review (plotting and descriptive statistics)
+    	\item Control dashboard
+    	\item Final processing (data as tensorflow dataset)
+    \end{enumerate}
+
+\end{enumerate}
+	    \subsection{Why is this topic important?}
+	    write
+	    \subsection{How could I formulate my hypothesis?}
+	    write
+	    \subsection{What are my results?}
+	    write
+	    \subsection{What is my major finding?}
+	    write
+
+    \section{Context and structure}
+        \subsection{Introduction}
+	    write
+
+        \subsubsection{Why is this research important?}
+	    write
+
+        \subsubsection{What is known about this topic?}
+	    write
+
+        \subsubsection{What are my hypothesis?}
+	    write
+
+        \subsubsection{What are my objectives?}
+	    write
+
+        \subsection{Methods}
+        \subsubsection{What is the object of study?}
+	    write
+
+        \subsubsection{What are thw research procedures to apply?}
+	    write
+
+        \subsection{Results}
+        \subsubsection{What are the most significant results of this work?}
+	    write
+
+        \subsubsection{What are the supporting results of this work?}
+	    write
+
+        \subsection{Discussion and conclusion}
+        \subsubsection{What are the major findings of this work?}
+	    write
+
+        \subsubsection{What is the significance of these findings?}
+	    write
+      
+\bibliographystyle{ieeetr}
+\bibliography{draft}
+    
+\end{document}

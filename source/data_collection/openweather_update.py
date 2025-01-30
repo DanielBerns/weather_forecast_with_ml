@@ -8,7 +8,6 @@ longitude = '-67.461986'
 
 raw_data = Path('~', 'Data', application, 'raw_data')
 
-
 configuration = get_configuration(['API_KEY'])
 source = WeatherSource(configuration['API_KEY'])
 event = source.get(latitude, longitude)

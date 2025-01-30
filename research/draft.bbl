@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{SSIS2011}
+N.~Sharma, P.~Sharma, D.~Irwin, and P.~Shenoy, ``Predicting solar generation
+  from weather forecasts using machine learning,'' in {\em 2011 IEEE
+  international conference on smart grid communications (SmartGridComm)},
+  pp.~528--533, IEEE, 2011.
+
+\bibitem{OBOD2017}
+A.~C. Onal, O.~Berat~Sezer, M.~Ozbayoglu, and E.~Dogdu, ``Weather data analysis
+  and sensor fault detection using an extended iot framework with semantics,
+  big data, and machine learning,'' in {\em 2017 IEEE International Conference
+  on Big Data (Big Data)}, pp.~2037--2046, Dec 2017.
+
+\bibitem{weyn2021sub}
+J.~A. Weyn, D.~R. Durran, R.~Caruana, and N.~Cresswell-Clay, ``Sub-seasonal
+  forecasting with a large ensemble of deep-learning weather prediction
+  models,'' {\em Journal of Advances in Modeling Earth Systems}, vol.~13,
+  no.~7, p.~e2021MS002502, 2021.
+
+\end{thebibliography}
